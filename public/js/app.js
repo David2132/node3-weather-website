@@ -1,4 +1,3 @@
-console.log("Client side java script")
 
 const incomingData = document.querySelector('form')
 const search = document.querySelector('input')
