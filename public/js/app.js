@@ -36,8 +36,7 @@ incomingData.addEventListener('submit',(e)=>{
             messageThree.textContent = "Precipitation: " + data.prec
             messageFour.textContent = "Tempature High: " + data.tempHigh + " F degree"
             messageFive.textContent = "Tempature Low: " +data.tempLow + " F degree"
-            messageSix.textContent =  "Location: " + data.location
-            messageSeven.textContent = "Geographic Coordinates: " +data.latitude + " Latitude, "+ data.longitude + " Longitude"
+            messageSix.textContent = "Geographic Coordinates: " +data.latitude + " Latitude, "+ data.longitude + " Longitude"
 
 
         }
