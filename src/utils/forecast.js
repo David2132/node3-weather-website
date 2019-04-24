@@ -11,9 +11,9 @@ const forecast = (longitude, latitude, callback) => {
             callback('Location is invalid!', undefined)
         }
         else{
-            const {summary} =response.body.daily.data[0]
+            const {summary,temperatureHigh:High,temperatureLow:Low} =response.body.daily.data[0]
             const {temperature:temp, precipProbability:rain} =  response.body.currently
-            callback(undefined, {summary, temp, rain})
+            callback(undefined, {summary,Low,High, temp, rain, latitude, longitude})
         }
     })
 }
