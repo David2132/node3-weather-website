@@ -47,5 +47,21 @@ button {
     background: #888888;
     color: white;
     padding: 6px;
-    
+}
+a {
+    background-color: bisque;
+}
+a:link, a:visited{
+
+	font-weight: bold;
+	text-decoration:none;
+	width:200px;
+}
+a:hover{
+	background-color: black;
+	font-weight:none;
+	text-decoration:underline; 
+}
+body {
+    background-color: bisque;
 }
