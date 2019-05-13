@@ -30,7 +30,7 @@ app.get('/help', (req,res) => {
     res.render('help', {
        title: 'Help',
        name: 'David Duong',
-        help: "Help me out because I am broke."
+        help: "Untitled."
     })
 })
 app.get('/about', (req,res)=>{
